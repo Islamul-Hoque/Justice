@@ -1,0 +1,199 @@
+/* Universal selectors */
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+/* Max-width */
+.max-width{
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Font-Color */
+.Dark-1{
+    color:#111111 ;
+}
+.Dark-2{
+    color:#414040 ;
+}
+.Dark-3{
+    color:#707070 ;
+}
+.Dark-4{
+    color:#A0A0A0 ;
+}
+.Dark-5{
+    color:#CFCFCF ;
+}
+.Dark-6{
+    color:#E7E7E7 ;
+}
+.Dark-7{
+    color:#F3F3F3 ;
+}
+.Dark-1{
+    color:#111111 ;
+}
+
+/* Button */
+.btn{
+    color: #B68C5A;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.8rem;
+}
+
+/* Text-align */
+.center{
+    text-align: center;
+}
+
+/* Image */
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: block;
+    max-width:100%;
+}
+
+/* Font size */
+.font-size-1{
+    font-size: 2rem;
+}
+.font-size-2{
+    font-size: 1.8rem;
+}
+.font-size-3{
+    font-size: 1.5rem;
+}
+.font-size-4{
+    font-size: 1.3rem;
+}
+
+/* Flex */
+.Flex{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+}
+
+/* Grid */
+.Grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Border-radius */
+.border-radius-1{
+    border-radius: 0.8;
+}
+.border-radius-1{
+    border-radius: 0.5;
+}
+
+/* Box-shadow */
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.8888);
+}
+
+/* Gradient */
+.gradient{
+    background: linear-gradient( to right, rgba(206, 238, 251, 0.403) , rgba(199, 130, 211, 0.37) );
+}
+
+/* Fundamental style for navbar*/
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Start main css style for large Devices */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hide SECTION */
+.hide{
+    display: none;
+}
+
+/* Small Devices */
+@media screen and (min-width: 320px) and (max-width:576px){ 
+    /* Font size */
+    .font-size-1{
+        font-size: 2rem;
+    }
+    .font-size-2{
+        font-size: 1.8rem;
+    }
+    .font-size-3{
+        font-size: 1.5rem;
+    }
+    .font-size-4{
+        font-size: 1.3rem;
+    }
+
+
+
+
+
+
+    /* Hide SECTION */
+    .hide{
+        display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+/* Medium Devices */
+@media screen and (min-width: 576px) and (max-width:768px){ 
+    
+}
+
+/* Large Tab, Small Laptop */
+@media screen and (min-width: 769px) and (max-width:991px){ 
+    
+}
+
+/* Large Devices */
+@media screen and (min-width: 992px) and (max-width: 1199px){ 
+    
+}
+
+/* Extra Large Devices */
+@media screen and (min-width: 1200px){ 
+    
+}
